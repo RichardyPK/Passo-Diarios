@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo+ - Estatísticas</title>
+
+    <link rel="stylesheet" href="css\estastisticas.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+
+<h2>Estatísticas</h2>
+
+</header>
+
+<div class="cards">
+
+<div class="card">
+<h3>Passos Hoje</h3>
+<p>8.425</p>
+</div>
+
+<div class="card">
+<h3>Distância</h3>
+<p>6,8 km</p>
+</div>
+
+<div class="card">
+<h3>Calorias</h3>
+<p>512 kcal</p>
+</div>
+
+<div class="card">
+<h3>Tempo</h3>
+<p>1h 28min</p>
+</div>
+
+</div>
+
+<div class="grafico">
+
+<canvas id="graficoPassos"></canvas>
+
+</div>
+
+</div>
+
+<header>
+
+    <button class="voltar" onclick="history.back()">
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
+
+    <h2>Estatísticas</h2>
+
+</header>
+
+<script src="js\estastisticas.js"></script>
+
+</body>
+</html>

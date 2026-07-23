@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo+ - Metas</title>
+
+    <link rel="stylesheet" href="css\metas.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+
+<button class="voltar" onclick="history.back()" href="">
+<i class="fa-solid fa-arrow-left"></i>
+</button>
+
+<h2>Metas Diárias</h2>
+
+</header>
+
+<section class="meta">
+
+<h3>Sua Meta</h3>
+
+<input
+type="number"
+id="meta"
+placeholder="Ex: 10000">
+
+<button id="salvar">
+Salvar Meta
+</button>
+
+</section>
+
+<section class="progresso">
+
+<h3>Progresso de Hoje</h3>
+
+<div class="barra">
+
+<div id="barraProgresso"></div>
+
+</div>
+
+<p id="textoProgresso">
+0 / 10000 passos
+</p>
+
+</section>
+
+<section class="botoes">
+
+<button id="menos">
+-100
+</button>
+
+<button id="mais">
++100
+</button>
+
+</section>
+
+</div>
+
+<script src="js\metas.js"></script>
+
+</body>
+</html>
