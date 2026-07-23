@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Passos Diários</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js" crossorigin="anonymous"></script>
+</head>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js")
+    .then(() => console.log("Service Worker registrado!"))
+    .catch(err => console.error(err));
+}
+</script>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2F80ED">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Passo+">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div>
+<h3>Olá 👋</h3>
+<p>Continue caminhando!</p>
+</div>
+
+<div class="avatar">
+<i class="fa-solid fa-user"></i>
+</div>
+
+</header>
+
+<section class="card passos">
+
+<p>Passos de Hoje</p>
+
+<h1 id="passos">6420</h1>
+
+<div class="barra">
+<div class="progresso" id="barra"></div>
+</div>
+
+<span id="porcentagem">64%</span>
+
+</section>
+
+<button id="addPassos">
+<i class="fa-solid fa-shoe-prints"></i>
+
+Adicionar 100 passos
+</button>
+
+<section class="cards">
+
+<div class="mini-card">
+
+<i class="fa-solid fa-fire"></i>
+
+<h2>320 kcal</h2>
+
+<p>Calorias</p>
+
+</div>
+
+<div class="mini-card">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<h2>5.2 km</h2>
+
+<p>Distância</p>
+
+</div>
+
+</section>
+
+<section class="desafios">
+
+<h2>Desafios</h2>
+
+<div class="desafio">
+
+🏅 Complete 10.000 passos
+
+</div>
+
+<div class="desafio">
+
+🔥 Caminhe 7 dias seguidos
+
+</div>
+
+<div class="desafio">
+
+🥇 Faça 100 mil passos
+
+</div>
+
+</section>
+
+<nav>
+
+<a href="index.html">🏠</a>
+
+<a href="estastitiscas.html">📊</a>
+
+<a href="estastitiscas.html">🚶</a>
+
+<a href="desafios.html">🏆</a>
+
+<a href="perfil.html">👤</a>
+
+</nav>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
