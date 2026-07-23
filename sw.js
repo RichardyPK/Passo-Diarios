@@ -3,9 +3,9 @@ const CACHE_NAME = "passo-v1";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
-  "./manifest.json",
-  "./css/style.css",
-  "./js/script.js"
+  "./manifest.webmanifest",
+  "./style.css",
+  "./script.js"
 ];
 
 self.addEventListener("install", event => {
