@@ -16,11 +16,15 @@
     "lifestyle"
   ],
   "icons": [
-    {
-      "src": "image/icon.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    }
-  ]
+  {
+    "src": "imagem/icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "imagem/icon2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
 }
